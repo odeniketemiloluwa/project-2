@@ -7,7 +7,8 @@ module.exports = {
      "99":"40rem"
       },
       width:{
-        "99":"30rem"
+        "99":"30rem",
+        "65":"18rem"
       }
     },
   },
