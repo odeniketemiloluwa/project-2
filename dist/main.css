@@ -1,0 +1,80 @@
+
+        body{
+            background: rgb(29, 28, 28);
+            font-family: 'Nunito', sans-serif;
+        }
+       /* header{
+        max-width: 100%;
+        background-color: rgb(124, 137, 216);
+        height:40px;
+       } */
+       #btn1{
+         border: 1px solid white;
+         border-radius: 10px;
+       }
+       .sec1{
+        border-right: 2px solid white;
+        }
+        .srcbox{
+            background-color: rgb(48, 51, 54);
+        }
+        .wise{
+            color:rgb(253 224 71 );
+            text-align: center;
+            margin: 0 auto;
+        }
+        .grid1{
+        row-gap: 5px;
+        height: 28rem;
+        }
+        .clr1{
+            background-color: rgb(58, 55, 55);
+        }
+        .clr2{
+            background-color: rgb(194, 194, 177);
+        }
+        .logo{
+            color:rgb(253 224 71 ) ;
+            width: 40px;
+            height: 40px;
+        }
+        .traffic{
+            border-radius: 100px;
+            border: 8px solid rgb(26, 24, 24);
+            text-align: center;
+            border-right: 8px solid rgb(87, 83, 83);
+            margin: 7px auto;
+        }
+        .fullrep{
+            border: 1px solid white;
+            border-radius: 50px;
+        }
+        .dwdrep{
+            border: 1px solid white;
+            border-radius: 14px;
+            background-color: rgb(34, 32, 32);
+            
+        }
+        @media  screen and (max-width:768px) {
+            .sec1{
+                display: none;
+            }
+            .sec2{
+                width: 100%;
+            }
+            .srcbox{
+                display: none;
+            }
+            .btn2,.btn3{
+                display: none;
+            }
+            .grid3{
+                margin-top: 50px;
+            }
+        }
+        @media  screen and (max-width:768px){
+          .menu-btn{
+            display:flex;
+          }
+        }
+ 
